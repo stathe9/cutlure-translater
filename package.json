@@ -1,10 +1,9 @@
 {
   "name": "culture-translater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "TranslateCuture.js",
   "scripts": {
-    
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
