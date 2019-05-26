@@ -2,7 +2,7 @@
   "name": "culture-translater",
   "version": "1.0.2",
   "description": "",
-  "main": "TranslateCuture.js",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
