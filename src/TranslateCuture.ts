@@ -49,7 +49,7 @@ export class TranslateCulture {
     }
 
     return expr.replace(this.templateMatcher, (substring: string, b: string) => {
-      let r = this.getValue(params, b);
+      const r = this.getValue(params, b);
       return this.isDefined(r) ? r : substring;
     });
   }

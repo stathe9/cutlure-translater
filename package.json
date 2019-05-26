@@ -2,7 +2,7 @@
   "name": "culture-translater",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "TranslateCuture.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
