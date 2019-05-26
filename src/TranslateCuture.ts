@@ -1,11 +1,13 @@
 export class TranslateCulture {
   private templateMatcher: RegExp = /{{\s?([^{}\s]*)\s?}}/g;
 
+// tslint:disable-next-line: ban-types
   public translateCultures(culture: any, key: string, interpolateParams?: Object) {
     // var a = this.getValue(this.culture, expr);
     return this.interpolate(this.getValue(culture, key), interpolateParams);
   }
 
+// tslint:disable-next-line: ban-types
   private interpolate(expr: string | Function, params?: any): string {
     let result: string;
 
@@ -39,6 +41,7 @@ export class TranslateCulture {
     return target;
   }
 
+// tslint:disable-next-line: ban-types
   private interpolateFunction(fn: Function, params?: any) {
     return fn(params);
   }
